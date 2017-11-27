@@ -20,6 +20,8 @@ static id hud = nil;
     return hud;
 }
 
+#pragma mark - —— Methods ——
+
 + (void)showMessage:(NSString *)message {
     
     XZHud *hud = [self shareHud];
